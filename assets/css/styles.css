@@ -1,8 +1,3 @@
-.user
-{
-    padding: 1em;
-}
-
 .fa-brands.fa-square-instagram.fa-2x:hover,
 .fa-brands.fa-square-github.fa-2x:hover,
 .fa-brands.fa-linkedin.fa-2x:hover,
@@ -23,16 +18,7 @@
 
 .texto_redes{
   font-size: 0.6em;
-}
-
-.texto_redes,
-.texto_login
-{
-    color: rgb(255, 255, 255);
-}
-
-.nav.navbar{
-    z-index: 9998;
+  color: rgb(255, 255, 255);
 }
 
 .nav-link{
@@ -42,10 +28,6 @@
 body{
     height: 100%;   
     font-family: "Open Sans", sans-serif;
-}
-
-#exampleModal{
-  padding-top: 10em;
 }
 
 #main{

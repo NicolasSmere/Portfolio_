@@ -12,7 +12,7 @@
 <body>
     <header id="header">
     <!-- NavBar-->
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <div class="container-fluid">
             
             <!--Menu-->
@@ -35,11 +35,10 @@
                     <li class="nav-item menu"><a class="nav-link" href="#estudios">ESTUDIOS</a></li>
                     <li class="nav-item menu"><a class="nav-link" href="#expLaboral">EXPERIENCIA</a></li>
                     <li class="nav-item menu"><a class="nav-link" href="#proyecto">PROYECTOS</a></li>
-
                 </ul>
                 <hr class="text-white-50">
                 <!--Redes sociales-->
-                <ul class="navbar-nav flex-row flex-wrap  ">
+                <ul class="navbar-nav flex-row flex-wrap-md">
                     <li class="nav-item col-6 col-md-auto p-3">
                         <i class="fa-brands fa-square-github fa-2x"></i>
                         <small class="d-md-none ms-2 texto_redes">GitHub</small>
@@ -49,7 +48,8 @@
                         <small class="d-md-none ms-2 texto_redes">Facebook</small>
                     </li>
                 </ul>
-                <ul class="navbar-nav flex-row flex-wrap  ">
+                <ul class="navbar-nav flex-row flex-wrap-md">
+                   
                     <li class="nav-item col-6 col-md-auto p-3">
                         <i class="fa-brands fa-linkedin fa-2x" ></i>
                         <small class="d-md-none ms-2 texto_redes">Linkedin</small>
@@ -58,64 +58,22 @@
                         <i class="fa-brands fa-square-instagram fa-2x"></i>
                         <small class="d-md-none ms-2 texto_redes">Instagram</small>
                     </li>
+
                 </ul>
-                <hr class="text-white-50">
-                <!--Boton login-->
-                <div>
-                    <i id="login" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="fa-solid fa-user fa-2x user"> </i>
-                    <small class="d-md-none ms-2 texto_login">Log in</small>
-                </div>             
+                <hr class="text-white-50">           
             </div>
             <!--Fin de elementos del menu colapsable-->
         </div>
     </nav>
     <!--Fin navbar-->
 
-    <!-- Login Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">WELCOME</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text"></div>
-                        </div>
-                        <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                    </form>                 
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Login</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fin Login Modal -->
     </header>
-
     <main id="main">
-
         <!--Banner-->
         <section id="banner">
-            <div class="banner-container">
-                <div class="row">
-                    <div id="modelo1" class="col-lg-4">
-                        
-                    </div>
-                    <div id="modelo2" class="col-lg-7">
-                        <img class="img-fluid" src="assets/img/Proyecto-Portfolio.png" alt="">
-                    </div>
-                    <div id="modelo3" class="col-lg-1">
-
+            <div class="banner-container container-fluid">
+                    <div class="d-flex flex-row justify-content-center align-items-center" >
+                        <img class="" src="assets/img/Proyecto-Portfolio.png" alt="">
                     </div>
                 </div>
             </div>
