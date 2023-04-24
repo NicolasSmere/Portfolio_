@@ -1,3 +1,5 @@
+/*Redes texto y efecto emoticones*/
+
 .fa-brands.fa-square-instagram.fa-2x:hover,
 .fa-brands.fa-square-github.fa-2x:hover,
 .fa-brands.fa-linkedin.fa-2x:hover,
@@ -21,8 +23,14 @@
   color: rgb(255, 255, 255);
 }
 
+/*Fin redes texto y efecto emoticones*/
+
 .nav-link{
   font-size: 0.70em
+}
+
+.logo {
+  width: 8rem;
 }
 
 body{
@@ -110,7 +118,9 @@ section{
   margin-bottom: 0;
 }
 
-
+.estudios{
+  background-image: url(70409-estudiar.jpg) ;
+}
 
 /* Fin About */ 
 
